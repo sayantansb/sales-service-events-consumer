@@ -1,0 +1,45 @@
+spring:
+  application:
+    name: @project.artifactId@
+
+
+salesforce:
+  sourceEvent:
+    list: OPPORTUNITY_STATUS_EVENT
+  host: https://sayantandeutsche-dev-ed.my.salesforce.com
+  username: sayantandeutsche@gmail.com
+  password: P0ps1cleu9OR7cqWQGDIuVs96957WTIc
+  consumerKey: 3MVG91BJr_0ZDQ4tuS4Xw7uPeJqXuERdNv5IBPdD6cJdzt5tDeh8BHtaCyEG8Xy0oCzKGMdCVB_68CJDfdQpZ
+  secret: B5191ECBEAF8FB5D0EA2F5D7BAD348B188355FD91D8B16B7593D00761886AB05
+
+
+
+logging:
+  level:
+    root: WARN
+    api.sales.service: INFO
+    org.springframework.context.annotation.ConfigurationClassPostProcessor: error
+    com.netflix.config.sources.URLConfigurationSource: error
+
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health, alive, check, info, prometheus, metrics
+    enabled-by-default: false
+  endpoint:
+    prometheus:
+      enabled: true
+    check:
+      enabled: true
+    alive:
+      enabled: true
+    health:
+      enabled: true
+    env:
+      enabled: false
+
+
+
+

@@ -1,0 +1,14 @@
+{
+  "AgreementForm__c": "CONTRACT",
+  "UserGender__c": "MALE",
+  "CreatedById": "0053X00000Ag7JLQAZ",
+  "DealType__c": "CONTRACT",
+  "UserId__c": "0053X00000Ag7JLQAZ",
+  "RequestorId__c": "100",
+  "SMRevenueShares__c": "SalesManagerId__c---100:ProfitCenter__c---DACH_CORE:TotalShareInPercent__c---0.25:TotalShareValue__c---0.25||SalesManagerId__c---101:ProfitCenter__c---DACH_CORE:TotalShareInPercent__c---0.50:TotalShareValue__c---0.50",
+  "Products__c": "Type__c---PREMIUM_ACCOUNT:Price__c---25.00:PricePerMonth__c---101.00:description__c---This is a feature product for test",
+  "CreatedDate": "2022-04-19T10:31:01.125Z",
+  "UserContactFirstName__c": "ContactFirstName1",
+  "OpportunityId__c": "0063X00001Lbi7EQAR",
+  "UserContactLastName__c": "ContactLastName1"
+}
